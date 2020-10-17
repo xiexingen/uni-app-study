@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style>
-
+@import './static/iconfont/iconfont.css'	
 </style>

@@ -1,0 +1,37 @@
+{
+  "id": "2137615",
+  "name": "xxg-uni-study",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "学习uni使用",
+  "glyphs": [
+    {
+      "icon_id": "3143246",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "13562016",
+      "name": "超市",
+      "font_class": "chaoshi",
+      "unicode": "edc3",
+      "unicode_decimal": 60867
+    },
+    {
+      "icon_id": "13830443",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "17426742",
+      "name": "图 片",
+      "font_class": "tupian",
+      "unicode": "e82c",
+      "unicode_decimal": 59436
+    }
+  ]
+}
