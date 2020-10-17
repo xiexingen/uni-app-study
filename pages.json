@@ -1,0 +1,69 @@
+{
+	"pages": [{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/news/index"
+			// "style" : {
+			// 	"navigationBarTitleText":"消息",
+			// 	"h5":{
+			// 		"enablePullDownRefresh":true,
+			// 		"backgroundColor":"#EEEEEE"
+			// 	}
+			// }
+		},
+		{
+			"path": "pages/news/detail"
+		}, {
+			"path": "pages/cart/index"
+		}, {
+			"path": "pages/member/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "XXG商城",
+		"navigationBarBackgroundColor": "#a10b24",
+		"enablePullDownRefresh": true,
+		//"backgroundColor": "#8ce6ff",
+		//"backgroundTextStyle":"dark",
+		"onReachBottomDistance": 50
+	},
+	"tabBar": {
+		//"color": "#007AFF",
+		"selectedColor": "#a10b24",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/tabs/home.png",
+				"selectedIconPath": "static/images/tabs/home-active.png"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"text": "资讯",
+				"iconPath": "static/images/tabs/cate.png",
+				"selectedIconPath": "static/images/tabs/cate-active.png"
+			},
+			{
+				"pagePath": "pages/cart/index",
+				"text": "购物车",
+				"iconPath": "static/images/tabs/cart.png",
+				"selectedIconPath": "static/images/tabs/cart-active.png"
+			},
+			{
+				"pagePath": "pages/member/index",
+				"text": "会员中心",
+				"iconPath": "static/images/tabs/user.png",
+				"selectedIconPath": "static/images/tabs/user-active.png"
+			}
+		]
+	},
+	"condition": {
+		"current": 1,
+		"list": [{
+			"name": "消息详情",
+			"path": "pages/news/detail",
+			"query": "id=100"
+		}]
+	}
+}
