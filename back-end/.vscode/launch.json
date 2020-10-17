@@ -1,0 +1,25 @@
+// .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Egg",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "runtimeExecutable": "npm",
+        "windows": { "runtimeExecutable": "npm.cmd" },
+        // 启动我们的 egg-bin debug 并默认是 brk
+        "runtimeArgs": [ "run", "debug", "--", "--inspect-brk","--port","10000" ],
+        // 日志输出到 Terminal，否则启动期的日志看不到
+        "console": "integratedTerminal",
+        "protocol": "auto",
+        // 进程重启后自动 attach
+        "restart": true,
+        // 因为无需再 proxy，故改回原来的 9229 端口
+        "port": 9229,
+        // 自动 attach 子进程 
+        "autoAttachChildProcesses": true
+      }
+    ]
+  }

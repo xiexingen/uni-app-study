@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "egg": "^2.15.1",
+    "egg-cors": "^2.2.3",
+    "egg-mongoose": "^3.3.1",
     "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
@@ -23,9 +25,9 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-xxg-mall-api",
+    "serve": "egg-scripts start --daemon --title=egg-server-xxg-mall-api",
     "stop": "egg-scripts stop --title=egg-server-xxg-mall-api",
-    "dev": "egg-bin dev --port 10000",
+    "start": "egg-bin dev --port 10000",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",

@@ -41,8 +41,8 @@
 			{
 				"pagePath": "pages/news/index",
 				"text": "资讯",
-				"iconPath": "static/images/tabs/cate.png",
-				"selectedIconPath": "static/images/tabs/cate-active.png"
+				"iconPath": "static/images/tabs/news.png",
+				"selectedIconPath": "static/images/tabs/news-active.png"
 			},
 			{
 				"pagePath": "pages/cart/index",
@@ -53,8 +53,8 @@
 			{
 				"pagePath": "pages/member/index",
 				"text": "会员中心",
-				"iconPath": "static/images/tabs/user.png",
-				"selectedIconPath": "static/images/tabs/user-active.png"
+				"iconPath": "static/images/tabs/member.png",
+				"selectedIconPath": "static/images/tabs/member-active.png"
 			}
 		]
 	},

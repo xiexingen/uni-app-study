@@ -6,4 +6,10 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
+
+  // mongoose 配置
+  mongoose: {
+    enable: true,
+    package: 'egg-mongoose'
+  }
 };

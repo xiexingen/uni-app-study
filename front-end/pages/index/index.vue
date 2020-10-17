@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<swiper indicator-dots autoplay circular>
-			<swiper-item v-for="item in swapers" :key="item.id">
+			<swiper-item v-for="item in swapers" :key="item.serial_no">
 				<image :src="item.src"></image>
 			</swiper-item>
 		</swiper>
