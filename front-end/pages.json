@@ -18,13 +18,24 @@
 			"path": "pages/cart/index"
 		}, {
 			"path": "pages/member/index"
+		}, {
+			"path": "pages/contact/index"
+		}, {
+			"path": "pages/goods/index",
+			"style":{
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/shequ/index"
+		}, {
+			"path": "pages/video/index"
 		}
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "XXG商城",
 		"navigationBarBackgroundColor": "#a10b24",
-		"enablePullDownRefresh": true,
 		//"backgroundColor": "#8ce6ff",
 		//"backgroundTextStyle":"dark",
 		"onReachBottomDistance": 50

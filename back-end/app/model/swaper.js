@@ -49,7 +49,7 @@ function initSwaper(Swaper) {
           "http://m.360buyimg.com/mobilecms/s700x280_jfs/t1/148766/31/9437/104633/5f6ff039Ebc893037/592f36a15a4198fc.jpg",
       }).save();
     } else {
-      console.log("-------------init user successfully--------------");
+      console.log("-------------init swaper successfully--------------");
     }
   });
 }
