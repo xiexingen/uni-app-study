@@ -30,7 +30,10 @@
 				"enablePullDownRefresh": true
 			}
 		}, {
-			"path": "pages/shequ/index"
+			"path": "pages/shequ/index",
+			"style":{
+				"navigationBarTitleText":"社区图片"
+			}
 		}, {
 			"path": "pages/video/index"
 		}
@@ -75,8 +78,8 @@
 	"condition": {
 		"current": 1,
 		"list": [{
-			"name": "联系我们",
-			"path": "pages/contact/index",
+			"name": "社区图片",
+			"path": "pages/shequ/index",
 			"query": "id=100"
 		}]
 	}
