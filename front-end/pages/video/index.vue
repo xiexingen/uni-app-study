@@ -1,6 +1,6 @@
 <template>
 	<view>
-		学习视频
+		学习视频--  待完善
 	</view>
 </template>
 

@@ -10,4 +10,7 @@ module.exports = app => {
   router.get('/api/home/getSwapers',controller.home.getSwapers)
 
   router.get('/api/good/getGoods',controller.good.getGoods)
+
+  router.get('/api/picture/getCateGorys',controller.picture.getCateGorys)
+  router.get('/api/picture/getPictures',controller.picture.getPictures)
 };

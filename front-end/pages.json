@@ -35,7 +35,10 @@
 				"navigationBarTitleText":"社区图片"
 			}
 		}, {
-			"path": "pages/video/index"
+			"path": "pages/video/index",
+			"style":{
+				"navigationBarTitleText":"学习视频"
+			}
 		}
     ],
 	"globalStyle": {
