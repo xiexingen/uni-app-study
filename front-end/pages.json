@@ -19,7 +19,10 @@
 		}, {
 			"path": "pages/member/index"
 		}, {
-			"path": "pages/contact/index"
+			"path": "pages/contact/index",
+			"style":{
+				"navigationBarTitleText":"联系我们"
+			}
 		}, {
 			"path": "pages/goods/index",
 			"style":{
@@ -72,8 +75,8 @@
 	"condition": {
 		"current": 1,
 		"list": [{
-			"name": "消息详情",
-			"path": "pages/news/detail",
+			"name": "联系我们",
+			"path": "pages/contact/index",
 			"query": "id=100"
 		}]
 	}
