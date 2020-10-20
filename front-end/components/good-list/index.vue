@@ -10,12 +10,16 @@
 				<view class="title">{{item.title}}</view>
 			</view>
 		</view>
-		<xw-empty v-if="dataSource.length" text="暂无商品数据" textColor="#777777"></xw-empty>
+		<xw-empty v-if="dataSource.length===0" text="暂无商品数据" textColor="#777777"></xw-empty>
 	</view>
 </template>
 
 <script>
+	import Empty from '@/components/xw-empty/xw-empty'
 	export default {
+		components:{
+			'xw-empty':	Empty
+		},
 		props:['dataSource']
 	}
 </script>

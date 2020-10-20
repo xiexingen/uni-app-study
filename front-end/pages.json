@@ -3,17 +3,21 @@
 			"path": "pages/index/index"
 		},
 		{
-			"path": "pages/news/index"
-			// "style" : {
-			// 	"navigationBarTitleText":"消息",
-			// 	"h5":{
-			// 		"enablePullDownRefresh":true,
-			// 		"backgroundColor":"#EEEEEE"
-			// 	}
-			// }
+			"path": "pages/news/index",
+			"style":{
+				"navigationBarTitleText":"新闻资讯",
+				"enablePullDownRefresh": true
+				// "h5":{
+				// 	"enablePullDownRefresh":true,
+				// 	"backgroundColor":"#EEEEEE"
+				// }
+			}
 		},
 		{
-			"path": "pages/news/detail"
+			"path": "pages/news/detail",
+			"style":{
+				"navigationBarTitleText":"资讯详情"
+			}
 		}, {
 			"path": "pages/cart/index"
 		}, {
@@ -81,9 +85,9 @@
 	"condition": {
 		"current": 1,
 		"list": [{
-			"name": "社区图片",
-			"path": "pages/shequ/index",
-			"query": "id=100"
+			"name": "新闻详情",
+			"path": "pages/news/detail",
+			"query": "id=5f8ec3e558ef3f00689a4a12"
 		}]
 	}
 }
