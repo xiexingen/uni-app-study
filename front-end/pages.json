@@ -19,9 +19,15 @@
 				"navigationBarTitleText":"资讯详情"
 			}
 		}, {
-			"path": "pages/cart/index"
+			"path": "pages/cart/index",
+			"style":{
+				"navigationBarTitleText":"我的购物车"
+			}
 		}, {
-			"path": "pages/member/index"
+			"path": "pages/member/index",
+			"style":{
+				"navigationBarTitleText":"会员中心"
+			}
 		}, {
 			"path": "pages/contact/index",
 			"style":{
